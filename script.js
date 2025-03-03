@@ -39,3 +39,28 @@ window.onscroll = ()=>{
     let footer = document.querySelector('footer');
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
+
+// function emailSend(){
+//     let Username = document.getElementById('name').value;
+//     let phone = document.getElementById('phone').value;
+//     let email = document.getElementById('email').value;
+//     let body = document.getElementById('body').value;
+//     let emailsubject = document.getElementById('emailsubject').value;
+
+//     let message = body+
+//     "<br>Name"+Username+
+//     "<br> Phone" + phone+
+//     "<br> Email" + email;
+
+// Email.send({
+//     Host : "smtp.mailendo.com",
+//     Username : "chaudharydevesh704@gmail.com",
+//     Password : "C0A1494B5E5BFAA700151B3C2370BCB1CB8D",
+//     To : 'chaudharydevesh704@gmail.com',
+//     From : email,
+//     Subject : emailsubject,
+//     Body : "message"
+// }).then(
+//   message => alert(message)
+// );
+// }
